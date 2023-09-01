@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<deformerWeight>
+  <headerInfo fileName="C:/Users/Ignignokt/Documents/maya/2020/scripts/grig/ASSETS/ninja/weight_data/Cn_spine_SKC.xml" worldMatrix="1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 0.000000 0.000000 0.000000 0.000000 1.000000 "/>
+  <shape name="Cn_spine_CRVShape" group="1" stride="3" size="7" max="7">
+    <point index="0" value=" 0.000561 93.407539 2.213154"/>
+    <point index="1" value=" 0.000561 96.413189 2.318859"/>
+    <point index="2" value=" 0.000561 102.427028 2.495522"/>
+    <point index="3" value=" 0.000561 111.421360 3.284737"/>
+    <point index="4" value=" 0.000561 120.451527 3.361843"/>
+    <point index="5" value=" 0.000561 126.439008 2.597753"/>
+    <point index="6" value=" 0.000561 129.419975 2.241293"/>
+  </shape>
+  <weights deformer="Cn_spine_SKC" source="Cn_spine_base_JNT" shape="Cn_spine_CRVShape" layer="0" defaultValue="0.000" size="3" max="2">
+    <point index="0" value="1.000"/>
+    <point index="1" value="0.998"/>
+    <point index="2" value="0.500"/>
+  </weights>
+  <weights deformer="Cn_spine_SKC" source="Cn_spine_tip_JNT" shape="Cn_spine_CRVShape" layer="1" defaultValue="0.000" size="3" max="6">
+    <point index="4" value="0.499"/>
+    <point index="5" value="0.998"/>
+    <point index="6" value="1.000"/>
+  </weights>
+  <weights deformer="Cn_spine_SKC" source="Cn_spine_mid_JNT" shape="Cn_spine_CRVShape" layer="2" defaultValue="0.000" size="5" max="5">
+    <point index="1" value="0.002"/>
+    <point index="2" value="0.500"/>
+    <point index="3" value="1.000"/>
+    <point index="4" value="0.501"/>
+    <point index="5" value="0.002"/>
+  </weights>
+</deformerWeight>
